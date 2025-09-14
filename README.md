@@ -1,6 +1,6 @@
-# My Python Projects Portfolio
+# Python Projects Portfolio
 
-Welcome to my portfolio of Python projects! This repository contains a collection of scripts and applications I've built, including my solutions for the **freeCodeCamp "Scientific Computing with Python"** certification. Many of these projects go beyond the original requirements, featuring enhanced functionalities and user-friendly command-line interfaces.
+This repository serves as a professional portfolio of Python applications and scripts. It includes solutions developed for the **freeCodeCamp "Scientific Computing with Python"** certification, many of which have been extended with additional features and interactive command-line interfaces. The projects within demonstrate a strong foundation in Python, algorithmic problem-solving, and software development best practices.
 
 ## 🚀 About This Collection
 
@@ -10,23 +10,27 @@ This repository is a showcase of my skills in Python, demonstrating my ability t
 
 ## 📂 Projects
 
-Here is a list of the projects included in this repository:
+This repository features a variety of command-line applications and scripts, each built to solve a specific problem while demonstrating different aspects of Python development.
 
-1.  [**Ciphers**](./01_Ciphers/): An application to encrypt and decrypt messages using both Caesar and Vigenere ciphers, complete with an interactive command-line interface.
-2.  [**Luhn Algorithm Validator**](./02_Luhn_Algorithm/): A script to validate credit card numbers using the Luhn algorithm.
-3.  [**Expense Tracker**](./03_Expense_Tracker/): A CLI tool to add, track, categorize, and view expenses. Features include calculating total expenses and exporting data to a `.csv` file.
-4.  [**Case Converter**](./04_Case_Converter/): A handy utility script to convert strings from `PascalCase` or `camelCase` to `snake_case`.
-5.  [**Bisection Method for Square Root**](./05_Bisection_Method/): An implementation of the bisection method, a numerical algorithm, to find the approximate square root of a number.
-6.  [**Arithmetic Formatter**](./06_Arithmetic_Formatter/): My solution to the freeCodeCamp project. The extended version handles additional operators (`*`, `/`, `%`) and bitwise operations.
+| # | Project | Description | Key Skills & Concepts |
+|---|---|---|---|
+| 1 | [**Ciphers**](./01_Ciphers/) | A full-featured CLI application for encrypting and decrypting messages using both Caesar and Vigenere ciphers. The user-friendly interface allows for easy selection of the cipher, operation, and key/offset. | `os`, `termcolor`, `string` module, modular arithmetic, user input validation, function decomposition, menu-driven CLI design. |
+| 2 | [**Luhn Algorithm**](./02_Luhn_Algorithm/) | A script that implements the Luhn checksum algorithm to validate identification numbers, most commonly used for credit cards. It processes the number as a string and performs the necessary mathematical checks. | Algorithmic implementation, list slicing & manipulation, functional programming (`map`), list comprehensions, string methods (`.strip()`, `.translate()`). |
+| 3 | [**Expense Tracker**](./03_Expense_Tracker/) | An interactive CLI tool for personal finance management. Users can add expenses, view aggregated totals, see expenses grouped by category, list all entries, and export the complete history to a timestamped CSV file. | File I/O (CSV writing), `datetime`, `os`, `termcolor`, `collections.defaultdict`, functional programming (`map`, `filter`), robust error handling. |
+| 4 | [**Case Converter**](./04_Case_Converter/) | A utility function that cleanly converts a string from `PascalCase` or `camelCase` into the Python-standard `snake_case`, a common requirement for maintaining code style. | List comprehensions, conditional logic within comprehensions, advanced string methods (`.isupper()`, `.lower()`, `.join()`, `.strip()`). |
+| 5 | [**Bisection Method**](./05_Bisection_Method/) | A script that implements the bisection search algorithm, a root-finding numerical method, to calculate the approximate square root of a number within a specified tolerance. | Numerical methods, algorithm implementation, loop control, handling float precision. |
+| 6 | [**Arithmetic Formatter**](./06_Arithmetic_Formatter/) | An advanced function that takes a list of arithmetic problems and formats them vertically and side-by-side. The extended version is enhanced to support `*`, `/`, `%`, and bitwise operators (`&`, `\|`, `^`). | Advanced string formatting (`.rjust()`), function decomposition, robust error handling, list manipulation, operator logic. |
+| 7 | [**Password Generator**](./07_Password_Generator/) | A secure password generator CLI that creates strong, randomized passwords. It allows users to customize constraints like length, inclusion of specific character types, and whether to allow duplicate characters. | `secrets` module (for cryptographic strength), `random.shuffle`, `string` constants, set operations, advanced user input validation, `termcolor`. |
 
 ---
+## 🛠️ Technical Skills
 
-## 🛠️ Skills and Tools Demonstrated
-
-* **Language:** Python
-* **Core Concepts:** Data Structures, Object-Oriented Programming (OOP), Algorithms, File I/O.
-* **Libraries:** `os`, `datetime`, `collections` (`defaultdict`), `termcolor`.
-* **Developer Tools:** Git/GitHub, VSCode.
+* **Core Language:** Python
+* **Paradigms:** Object-Oriented Programming (OOP), Functional Programming
+* **Key Concepts:** Data Structures, Algorithms, File I/O, Error Handling
+* **Standard Libraries:** `os`, `datetime`, `string`, `collections`, `secrets`, `random`
+* **Third-Party Libraries:** `termcolor`
+* **Developer Tools:** Git/GitHub, VS Code
 
 Feel free to explore the projects and review the code!
 
