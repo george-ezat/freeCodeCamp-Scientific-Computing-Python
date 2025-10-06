@@ -2,13 +2,25 @@ class Board:
     def __init__(self, board):
         self.board = board
 
+    # -------------------------------------------
+
     def __str__(self):
-        board_str = ''
-        for row in self.board:
-            row_str = [str(i) if i else '*' for i in row]
-            board_str += ' '.join(row_str)
-            board_str += '\n'
-        return board_str
+        board = []
+        for i, row in enumerate(self.board):
+            curr = []
+
+            for j, num in enumerate(row):
+                curr.append(str(num) if num != 0 else '*')
+                if j in (2, 5):
+                    curr.append('|')
+
+            board.append(' '.join(curr))
+            if i in (2, 5):
+                board.append('-' * 21)
+
+        return '\n'.join(board)
+
+    # -------------------------------------------
 
     def find_empty_cell(self):
         for row, contents in enumerate(self.board):
@@ -19,11 +31,17 @@ class Board:
                 pass
         return None
 
+    # -------------------------------------------
+
     def valid_in_row(self, row, num):
         return num not in self.board[row]
 
+    # -------------------------------------------
+
     def valid_in_col(self, col, num):
         return all(self.board[row][col] != num for row in range(9))
+
+    # -------------------------------------------
 
     def valid_in_square(self, row, col, num):
         row_start = (row // 3) * 3
@@ -34,6 +52,8 @@ class Board:
                     return False
         return True
 
+    # -------------------------------------------
+
     def is_valid(self, empty, num):
         row, col = empty
         valid_in_row = self.valid_in_row(row, num)
@@ -41,9 +61,12 @@ class Board:
         valid_in_square = self.valid_in_square(row, col, num)
         return all([valid_in_row, valid_in_col, valid_in_square])
 
+    # -------------------------------------------
+
     def solver(self):
         if (next_empty := self.find_empty_cell()) is None:
             return True
+
         for guess in range(1, 10):
             if self.is_valid(next_empty, guess):
                 row, col = next_empty
@@ -51,18 +74,22 @@ class Board:
                 if self.solver():
                     return True
                 self.board[row][col] = 0
+
         return False
 
-# -----------------------------------------------
+    # -------------------------------------------
+
 
 def solve_sudoku(board):
     gameboard = Board(board)
-    print(f'Puzzle to solve:\n{gameboard}')
+    print(f'Puzzle to solve:\n\n{gameboard}\n')
     if gameboard.solver():
-        print(f'Solved puzzle:\n{gameboard}')
+        print(f'Solved puzzle:\n\n{gameboard}\n')
     else:
         print('The provided puzzle is unsolvable.')
     return gameboard
+
+# -----------------------------------------------
 
 
 puzzle = [
