@@ -27,6 +27,7 @@ This repository features a variety of command-line applications and scripts, eac
 | 11 | [**Time Calculator**](./11_Time_Calculator/) | A function that accurately calculates a future time and day of the week by adding a duration to a starting time, handling all AM/PM and multi-day transitions without using any date/time libraries. | Time Calculation, Modulo Arithmetic, String Parsing, Logical Operations. |
 | 12 | [**Sudoku Solver**](./12_Sudoku_Solver/) | An object-oriented Sudoku solver that uses a backtracking algorithm to solve any valid 9x9 puzzle. The class-based structure encapsulates the board and solving logic. | OOP, Backtracking Algorithm, Recursion, 2D Lists (Matrices). |
 | 13 | [**Binary Search Tree**](./13_Binary_Search_Tree/) | A complete implementation of a Binary Search Tree (BST) data structure. The extended version includes multiple traversal methods (in-order, pre-order, post-order) and tree information properties (`size`, `height`). | Data Structures, OOP, Recursion, Tree Traversal. |
+| 14 | [**Budget App**](https://www.google.com/search?q=./14_Budget_App/) | An object-oriented application for managing budget categories. It tracks deposits, withdrawals, and transfers, and generates a visual spending chart to compare expenses across categories. | OOP, Class Methods, String Formatting & Manipulation, Data Aggregation. |
 
 ---
 
