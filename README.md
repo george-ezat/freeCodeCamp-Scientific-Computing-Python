@@ -30,6 +30,7 @@ This repository features a variety of command-line applications and scripts, eac
 | 14 | [**Budget App**](./14_Budget_App/) | An object-oriented application for managing budget categories. It tracks deposits, withdrawals, and transfers, and generates a visual spending chart to compare expenses across categories. | OOP, Class Methods, String Formatting & Manipulation, Data Aggregation. |
 | 15 | [**Vector Space**](./15_Vector_Space/) | An object-oriented implementation of 2D and 3D vectors. This project uses inheritance and extensively overloads Python's special "dunder" methods to enable natural mathematical operations (+, *, <, ==, etc.). | Advanced OOP, Inheritance, Dunder Methods, Operator Overloading, Vector Math. |
 | 16 | [**Equation Solver**](./16_Equation_Solver/) | An object-oriented equation solver built with an Abstract Base Class (ABC) framework. It solves and analyzes linear and quadratic equations, demonstrating polymorphism and robust error handling. | OOP, Abstract Base Classes (ABC), Polymorphism, Dunder Methods, match Statement, re module. |
+| 17 | [**Polygon Area Calculator**](./17_Polygon_Area_Calculator/) | An object-oriented project that uses a Square class inheriting from a Rectangle class to model geometric shapes and calculate their properties like area, perimeter, and diagonal. | OOP, Inheritance, Class Methods, Dunder Methods (`__repr__`). |
 
 ---
 
