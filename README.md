@@ -29,6 +29,7 @@ This repository features a variety of command-line applications and scripts, eac
 | 13 | [**Binary Search Tree**](./13_Binary_Search_Tree/) | A complete implementation of a Binary Search Tree (BST) data structure. The extended version includes multiple traversal methods (in-order, pre-order, post-order) and tree information properties (`size`, `height`). | Data Structures, OOP, Recursion, Tree Traversal. |
 | 14 | [**Budget App**](./14_Budget_App/) | An object-oriented application for managing budget categories. It tracks deposits, withdrawals, and transfers, and generates a visual spending chart to compare expenses across categories. | OOP, Class Methods, String Formatting & Manipulation, Data Aggregation. |
 | 15 | [**Vector Space**](./15_Vector_Space/) | An object-oriented implementation of 2D and 3D vectors. This project uses inheritance and extensively overloads Python's special "dunder" methods to enable natural mathematical operations (+, *, <, ==, etc.). | Advanced OOP, Inheritance, Dunder Methods, Operator Overloading, Vector Math. |
+| 16 | [**Equation Solver**](./16_Equation_Solver/) | An object-oriented equation solver built with an Abstract Base Class (ABC) framework. It solves and analyzes linear and quadratic equations, demonstrating polymorphism and robust error handling. | OOP, Abstract Base Classes (ABC), Polymorphism, Dunder Methods, match Statement, re module. |
 
 ---
 
@@ -36,8 +37,8 @@ This repository features a variety of command-line applications and scripts, eac
 
 - **Core Language:** Python
 - **Paradigms:** Object-Oriented Programming (OOP), Functional Programming, Procedural Programming
-- **Key Concepts:** Data Structures, Algorithms, Recursion, Iteration, Inheritance, Dunder Methods, Operator Overloading, File I/O, Error Handling, Time Calculation, Tree Traversal
-- **Standard Libraries:** `os`, `datetime`, `string`, `collections`, `secrets`, `random`
+- **Key Concepts:** Data Structures, Algorithms, Recursion, Iteration, Inheritance, Dunder Methods, Operator Overloading, Polymorphism, Abstract Base Classes (ABC), File I/O, Error Handling, Time Calculation, Tree Traversal
+- **Standard Libraries:** `os`, `datetime`, `string`, `collections`, `secrets`, `random`, `re`
 - **Third-Party Libraries:** `termcolor`
 - **Developer Tools:** Git/GitHub, VS Code
 
