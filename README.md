@@ -32,6 +32,7 @@ This repository features a variety of command-line applications and scripts, eac
 | 16 | [**Equation Solver**](./16_Equation_Solver/) | An object-oriented equation solver built with an Abstract Base Class (ABC) framework. It solves and analyzes linear and quadratic equations, demonstrating polymorphism and robust error handling. | OOP, Abstract Base Classes (ABC), Polymorphism, Dunder Methods, match Statement, re module. |
 | 17 | [**Polygon Area Calculator**](./17_Polygon_Area_Calculator/) | An object-oriented project that uses a Square class inheriting from a Rectangle class to model geometric shapes and calculate their properties like area, perimeter, and diagonal. | OOP, Inheritance, Class Methods, Dunder Methods (`__repr__`). |
 | 18 | [**Projectile Trajectory Calculator**](./18_Projectile_Trajectory_Calculator/) | An OOP-based calculator that simulates projectile motion. It computes trajectory details like displacement and coordinates, and then generates a visual representation of the path using an ASCII art graph. | OOP, Physics Simulation, `math` module, ASCII Art Generation, Properties (`@property`). |
+| 19 | [**Probability Calculator**](./19_Probability_Calculator/) | A probability calculator that uses Monte Carlo simulation to estimate the chances of drawing a specific set of balls from a hat, demonstrating statistical approximation through code. | OOP, Monte Carlo Simulation, `random` module, `copy.deepcopy`, `collections.Counter`. |
 
 ---
 
@@ -39,8 +40,8 @@ This repository features a variety of command-line applications and scripts, eac
 
 - **Core Language:** Python
 - **Paradigms:** Object-Oriented Programming (OOP), Functional Programming, Procedural Programming
-- **Key Concepts:** Data Structures, Algorithms, Recursion, Iteration, Inheritance, Dunder Methods, Operator Overloading, Polymorphism, Abstract Base Classes (ABC), Physics Simulation, ASCII Art, File I/O, Error Handling, Time Calculation, Tree Traversal
-- **Standard Libraries:** `os`, `datetime`, `string`, `collections`, `secrets`, `random`, `re`, `math`
+- **Key Concepts:** Data Structures, Algorithms, Recursion, Iteration, Inheritance, Dunder Methods, Operator Overloading, Polymorphism, Abstract Base Classes (ABC), Physics Simulation, Monte Carlo Simulation, ASCII Art, File I/O, Error Handling, Time Calculation, Tree Traversal
+- **Standard Libraries:** `os`, `datetime`, `string`, `collections`, `secrets`, `random`, `re`, `math`, `copy`
 - **Third-Party Libraries:** `termcolor`
 - **Developer Tools:** Git/GitHub, VS Code
 
